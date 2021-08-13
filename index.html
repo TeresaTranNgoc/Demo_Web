@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HỌC VIỆN TÀI CHÍNH</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+		.container{
+			margin: 0 auto;
+			max-width: 1000px;
+		}
+		table{
+			background-color:#531FDE;
+			width: 100%;
+			height: 50px;
+		} 
+		.container table th {
+			color: white;
+			font-weight: both;
+		}
+		.container table img{
+			width: auto;
+			height: 100px;
+			text-align: left;
+			padding: 30px;
+
+		}
+		.menu>ul{
+			background-color: #1F4ADE;
+			text-align: center;
+			padding: 0px;
+			margin: 0px;
+			list-style: none;
+		}
+		
+		.menu>ul>li{
+			display: inline-block;
+			position: relative;
+		}
+		.menu>ul>li>a{
+			display: block;
+			text-decoration: none;
+			font-variant: small-caps;
+			padding: 0 10px;
+			line-height: 30px;
+			color: white;
+		}
+		.menu>ul>li>a:hover{
+			color:yellow;
+		}
+		.menu ul ul{
+			position: absolute;
+			display: none;
+			padding: 0px;
+			margin: 0px;
+			list-style: none;
+			background-color: white;
+			box-shadow: 0 0 1px gray;
+			width:200px;
+		}
+		.menu ul ul a{
+			display: block;
+			line-height: 30px;
+			color: orangered;
+			text-decoration: none;
+			font-variant: small-caps;
+			padding: 0 10px;
+		}
+		.menu>ul>li:hover>ul{
+			display: block;
+		}
+		.menu ul ul a:hover{
+			background-color: orangered;
+			color: white;
+		}
+		.container>aside{
+			width: 25%;
+			min-height: 650px;
+			float:left;
+			background-color: #1FD2DE;
+		}
+		.vmenu{
+			padding: 0px;
+			margin: 0px;
+			list-style: none;
+		}
+		.vmenu a{
+			display: block;
+			border-bottom: 1px dotted white;
+			color:white;
+			text-decoration: none;
+			font-size: large;
+			padding: 8px 5px 8px 10px;
+		}
+		.vmenu a:hover{
+			border-bottom: 1px dotted white;
+			color:white;
+			background-color: #1F9BDE;
+		}
+		.container> div{
+			width: 50%;
+			min-height: 650px;
+			float:left;
+			background-color:white;
+		}
+		.container>article{
+			width: 25%;
+			float: right;
+			min-height: 650px;
+		}
+
+		.container>article>p{
+			margin: 10px 10px ;
+			padding: 5px ;
+		}
+		.container>article>p>a>img{
+            height: 100px;
+            width: 100px;
+            padding: 0px 4px;
+            border-radius: 0px;
+            box-shadow: 0 0px gray;
+            
+		}
+		.container>article>p>a{
+            box-shadow: 0 5px gray;
+
+		}
+		.container>article>p>a:hover{
+			box-shadow: 0px 5px #1FDE1F;
+		}
+		.container>footer{
+			clear: both;
+		}
+		.container>footer>table{
+			border-collapse: collapse;
+			background-color:white ;
+            border: 0px solid white;
+            line-height: 15px;
+        }
+        .container>footer>table i{
+        	color: blue;
+        }
+        .container>footer>table th{
+        	color:blue;
+        	text-align: left;
+        }
+        .meni>select{
+        	width: 100%;
+			min-height: 20px;
+        }
+      
+	</style>
+</head>
+<body>
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=1873747602770616&autoLogAppEvents=1"></script>
+	<div class="container">
+		<table>
+			<td>
+			    <img src="pictures/logo.png">
+			</td>
+			<th><h1>HỌC VIỆN TÀI CHÍNH</br>
+			        HỆ ĐÀO TẠO QUỐC TẾ
+			    </h1>
+			</th>
+			<td>
+				<img src="pictures/logo1.png">
+			</td>
+		</table>
+		<nav class="menu">
+			<ul>
+				<img src="pictures/icon-home.png">
+				<li>
+					<a href="#">GIỚI THIỆU</a>
+					<ul>
+						<li><a href="#">HỌC VIỆN TÀI CHÍNH</a></li>
+						<li><a href="#">ĐẠI HỌC TOULON</a></li>
+						<li><a href="#">BAN GIÁM ĐỐC</a></li>
+						<li><a href="#">ĐỘI NGŨ GIẢNG VIÊN</a></li>
+						<li><a href="#">THẠC SĨ TIÊU BIỂU</a></li>
+						<li><a href="#">CỬ NHÂN THIÊU BIỂU</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">CHƯƠNG TRÌNH ĐÀO TẠO</a>
+					<ul>
+						<li><a href="#">ĐẠI HỌC CỬ NHÂN</a></li>
+						<li><a href="#">THẠC SĨ TÀI CHÍNH</a></li>
+					</ul>
+				</li>
+				<li><a href="#">TIN TUYỂN SINH</a></li>
+				<li><a href="#">SỰ KIỆN</a></li>
+				<li><a href="#">KIẾN THỨC</a></li>
+				<li><a href="#">GÓC TƯ VẤN</a></li>
+				<li><a href="#">TUYỂN DỤNG</a></li>
+			</ul>
+		</nav>
+		<aside>
+			<ul class="vmenu">
+				<li><a href="#">Nhập học, khai giảng</a></li>
+			    <li><a href="#">Quy chế đào tạo</a></li>
+			    <li><a href="#">Chương trình đào tạo khung</a></li>
+			    <li><a href="#">Kế hoạch đào tạo</a></li>
+	            <li><a href="#">Thời khóa biểu</a></li>
+			    <li><a href="#">Đăng kí tín chỉ</a></li>
+			    <li><a href="#">Lịch thi và thực tập cuối khóa</a></li>
+			    <li><a href="#">Học lại và cải thiện điểm</a></li>
+			    <li><a href="#">Bế giảng</a></li>
+			    <li><a href="#">Thông báo</a></li>
+			    <li><a href="#">Cách mạng công nghiệp 4.0</a></li>
+			</ul>
+			<p>
+				<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="20px" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+			</p>
+			<p>
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
+			</p>
+
+		</aside>
+		<div class="meni">
+			<h2>Các nhóm chỉ tiêu thể hiện khả năng thanh toán</h2><br/>
+			<strong>Nhóm chỉ tiêu này thể hiện được năng lực thanh toán của doanh nghiệp. Đây là nhóm chỉ tiêu được nhiều người quan tâm như: các nhà đầu tư, người cho vay, người cung cấp nguyên vật liệu…. họ luôn đặt ra câu hỏi là liệu doanh nghiệp có đủ khả năng trả các món nợ tới hạn không.</strong>
+			<p>
+				<h3>1. Hệ số khả năng thanh toán tổng quát</h3><br/>
+				Hệ số khả năng thanh toán tổng quát phản ánh khả năng quan hệ giữa tài sản mà doanh nghiệp hiện đang quản lý sử dụng với tổng số nợ phải trả. Nó cho biết cứ trong một đồng nợ phải trả có bao nhiêu đồng tài sản đảm bảo. Hệ số thanh toán tổng quát (H1) được khái quát hóa bằng công thức:<br/>
+				<center><strong>(H1) =  Tổng tài sản/Tổng nợ phải trả</strong></center><br/>
+				<ul style="list-style-type: disc;">
+					<li>Nếu H1>1: Chứng tỏ khả năng thanh toán của doanh nghiệp là tốt</li>
+					<li>Nếu H1<1 quá nhiều thì chưa tốt vì điều đó chứng tỏ doanh nghiệp chưa tận dụng được cơ hội chiếm dụng vốn.</li>
+					<li>Nếu H1<1 quá nhiều thì chưa tốt vì điều đó chứng tỏ doanh nghiệp chưa tận dụng được cơ hội chiếm dụng vốn.</li>
+					
+				</ul>
+			</p>
+			<p>
+				<h3>2. Hệ số khả năng thanh toán hiện hành</h3><br/>
+
+			</p>
+			<div class="fb-like">
+				data-layout="box-count"
+				data-show-faces="true"
+				
+			</div>
+		</div>
+		<article>
+				<p>
+				   <a href="#"><img src="pictures/1.jpg"></a>
+				   <a href="#"><img src="pictures/2.jpg"></a><br/>
+				</p>
+				<p>
+				   <a href="#"><img src="pictures/3.jpg"></a>
+				   <a href="#"><img src="pictures/4.jpg"></a><br/>
+				</p>
+				<p>
+				   <a href="#"><img src="pictures/5.jpg"></a>
+				   <a href="#"><img src="pictures/6.jpg"></a><br/>
+				</p>
+				<p>
+				   <a href="#"><img src="pictures/7.jpg"></a>
+				   <a href="#"><img src="pictures/8.jpg"></a><br/>
+				</p>
+				<p>
+				   <a href="#"><img src="pictures/9.jpg"></a>
+				   <a href="#"><img src="pictures/10.png"></a><br/>
+				</p>
+		</article>
+		<footer>
+		    </hr>
+			<table border="1">
+				<tr>
+					<th>CỔNG THÔNG TIN HỌC VIỆN TÀI CHÍNH</th>
+					<td><b>Địa chỉ:</b><em>Số 58 Lê Văn Hiến, Phường Đức Thắng, Quận Bắc Từ Liêm, Hà Nội </em></td>
+				</tr>
+				<tr>
+					<td><b>Cơ quan chủ quản:</b><em>Học viện tài chính</em></td>
+					<td><b>Điện thoại:</b><em>02438389326</em>|<b> Fax:</b><em>02438388906</em> </td>
+				</tr>
+				<tr>
+					<td><b>Chịu trách nhiệm chính:</b><em>Ths Ngô Vút Bổng- Phó Giám Đốc</em></td>
+					<td><b>Email:</b><i>banquanlydaotao@hvtc.edu.vn</i>|<b>Website:</b><i>http://daotao.hvtc.edu.vn</i></td>
+				</tr>
+				<tr>
+					<td colspan="4" align="center"><b>Phát triển bởi</b> <i>Công ty TNHH Phần mềm Hoàng Hà</i></td>
+				</tr>
+			</table>
+		</footer>
+
+</body>
+</html>
